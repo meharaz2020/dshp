@@ -1,0 +1,26 @@
+
+ @media print {
+	 @page {
+		 margin: 0;
+
+		 
+	}
+	 * {
+		 -webkit-print-color-adjust: exact;
+		 color-adjust: exact;
+	}
+	#printPageButton {
+    display: none;
+  	}
+}
+* {
+	 font-family: "Montserrat", sans-serif;
+	 margin: 0px;
+	 padding: 0px;
+	 box-sizing: border-box;
+}
+ body {
+	 background: #5f6368;
+}
+
+ 
